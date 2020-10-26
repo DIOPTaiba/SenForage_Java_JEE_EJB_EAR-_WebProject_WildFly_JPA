@@ -36,7 +36,7 @@ public class UtilisateurServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		Utilisateur u = new Utilisateur();
+		/*Utilisateur u = new Utilisateur();
 		u.setIdUser("MD100");
 		u.setNom("DIOP");
 		u.setPrenom("Mor");
@@ -45,9 +45,8 @@ public class UtilisateurServlet extends HttpServlet {
 		u.setUrlPhoto("/public/");
 		
 		utilisateurdao.add(u);
-		
+		*/
 		request.setAttribute("utilisateurs", utilisateurdao.listUtilisateur());
-		
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 	}
 
@@ -56,7 +55,26 @@ public class UtilisateurServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		//doGet(request, response);
+		String idUser = request.getParameter("idUser").toString();
+        String nom = request.getParameter("nom").toString();
+        String prenom = request.getParameter("prenom").toString();
+        String email = request.getParameter("email").toString();
+        String password = request.getParameter("password").toString();
+        String urlPhoto = request.getParameter("urlPhoto").toString();
+
+        Utilisateur utilisateur = new Utilisateur();
+        utilisateur.setIdUser(idUser);
+        utilisateur.setNom(nom);
+        utilisateur.setPrenom(prenom);
+        utilisateur.setEmail(email);
+        utilisateur.setPassword(password);
+        utilisateur.setUrlPhoto(urlPhoto);
+
+        int ok = utilisateurdao.add(utilisateur);
+        //resp.getWriter().println(ok);
+        request.setAttribute("resultat", ok);
+        doGet(request, response);
 	}
 
 }

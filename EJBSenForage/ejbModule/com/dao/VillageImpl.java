@@ -1,5 +1,6 @@
 package com.dao;
 
+
 import java.util.List;
 
 import javax.ejb.Stateless;
@@ -10,7 +11,7 @@ import javax.persistence.Query;
 import com.entities.Village;
 
 @Stateless
-public class VillageImpl implements IVillageLocal, IVillageRemote {
+public class VillageImpl implements IVillageLocal {
 	
 	//@PersistenceContext escanne le fichier persistence.xml pour établir la connexion avec la base de données
 	@PersistenceContext(unitName = "SenForage_UP")

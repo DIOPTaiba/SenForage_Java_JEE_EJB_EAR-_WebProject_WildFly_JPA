@@ -10,7 +10,7 @@ import javax.persistence.Query;
 import com.entities.Utilisateur;
 
 @Stateless
-public class UtilisateurImpl implements IUtilisateurLocal, IUtilisateurRemote {
+public class UtilisateurImpl implements IUtilisateurLocal {
 	
 	//@PersistenceContext escanne le fichier persistence.xml pour établir la connexion avec la base de données
 	@PersistenceContext(unitName = "SenForage_UP")

@@ -1,2 +1,26 @@
 1603688508293	Delete element
 1603688577487	Rename package 'contrller'
+1603700961566	Rename resource 'index.jsp'
+1603704650941	Move 'index.jsp' to 'WebContent'
+1603704996592	Rename resource 'index.jsp'
+1603709370107	Rename resource 'in.jsp'
+1603709728381	Move 'logout.jsp' to 'WEB-INF'
+1603709761368	Move 'header.jsp' to 'WEB-INF'
+1603709767010	Move 'footer.jsp' to 'WEB-INF'
+1603709771303	Move 'accueil.jsp' to 'WEB-INF'
+1603709775703	Move 'village' to 'WEB-INF'
+1603709781352	Move 'utilisateur' to 'WEB-INF'
+1603710199283	Move 'client' to 'WEB-INF'
+1603710205678	Move 'public' to 'WEB-INF'
+1603710448468	Rename resource 'index.jsp'
+1603710988080	Rename resource 'index1.jsp'
+1603711007699	Delete element
+1603711023935	Rename resource 'index.jsp'
+1603711034816	Rename resource 'index21.jsp'
+1603711072626	Delete element
+1603711925068	Delete element
+1603711933704	Rename resource 'index1.jsp'
+1603713821911	Copy compilation units
+1603714204150	Delete element
+1603717867688	Move 'public' to 'WebContent'
+1603717933428	Rename resource 'index.jsp'

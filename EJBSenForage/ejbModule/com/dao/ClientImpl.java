@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 import com.entities.Client;
 
 @Stateless
-public class ClientImpl implements IClientLocal, IClientRemote {
+public class ClientImpl implements IClientLocal {
 	
 	//@PersistenceContext escanne le fichier persistence.xml pour établir la connexion avec la base de données
 	@PersistenceContext(unitName = "SenForage_UP")

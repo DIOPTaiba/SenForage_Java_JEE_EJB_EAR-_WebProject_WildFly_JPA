@@ -1,8 +1,10 @@
 package com.dao;
 
+
 import java.util.List;
 
 import javax.ejb.Local;
+import javax.ejb.Remote;
 
 import com.entities.Village;
 
