@@ -1,0 +1,42 @@
+package com.dao;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.PersistenceContext;
+
+import com.entities.Utilisateur;
+
+@Stateless
+public class UtilisateurImpl implements IUtilisateurLocal, IUtilisateurRemote {
+	
+	//@PersistenceContext escanne le fichier persistence.xml
+	
+	@PersistenceContext(unitName = "")
+	@Override
+	public int add(Utilisateur utilisateur) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Utilisateur> listUtilisateur() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Utilisateur getUserById(String idUser) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Utilisateur getUserByLogin(String email, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

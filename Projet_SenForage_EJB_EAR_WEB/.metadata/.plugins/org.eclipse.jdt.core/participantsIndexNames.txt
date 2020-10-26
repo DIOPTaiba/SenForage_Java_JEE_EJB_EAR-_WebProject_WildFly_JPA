@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/home/simplon/Documents/project_JAVA/sur_eclipse/Projet_SenForage_EJB_EAR_WEB/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3303224588.index
+/WebSenForage/src

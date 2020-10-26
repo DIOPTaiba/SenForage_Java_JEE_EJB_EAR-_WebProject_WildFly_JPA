@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/simplon/Documents/project_JAVA/sur_eclipse/Projet_SenForage_EJB_EAR_WEB/.metadata/.plugins/org.eclipse.jdt.core
+4274708720.index
+3362505434.index
+1920059768.index

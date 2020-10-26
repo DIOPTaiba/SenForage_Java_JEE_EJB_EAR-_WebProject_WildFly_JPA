@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SenForageEJBWildfly&apos; to &apos;EJBSenForage&apos;" description="Rename resource &apos;SenForageEJBWildfly&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SenForageEJBWildfly" name="EJBSenForage" stamp="1603650902245" updateReferences="true"/>
+</session>
