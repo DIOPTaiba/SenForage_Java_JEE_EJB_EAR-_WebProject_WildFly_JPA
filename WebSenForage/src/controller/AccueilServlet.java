@@ -7,12 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(value = "/Accueil", name = "accueil")
+@WebServlet(urlPatterns="/Accueil", name="accueil")
 public class AccueilServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/accueil.jsp").forward(req, resp);
+    	if (req.getSession().getAttribute("user")==null){
+            resp.sendRedirect("/WebSenForage/");
+        }else {
+        	req.getRequestDispatcher("accueil.jsp").forward(req, resp);
+        }
     }
 }

@@ -3,7 +3,6 @@ package controller;
 import java.io.IOException;
 
 import javax.ejb.EJB;
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +18,7 @@ import com.entities.Village;
 /**
  * Servlet implementation class VillageServlet
  */
-@WebServlet("/Village")
+@WebServlet(urlPatterns="/Village", name="village")
 public class VillageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -36,10 +35,6 @@ public class VillageServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
     
-    @Override
-    public void init(ServletConfig config) throws ServletException {
-        
-    }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -47,8 +42,22 @@ public class VillageServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		request.setAttribute("villages", villagedao.listVillage());
-		request.getRequestDispatcher("/WEB-INF/village/add.jsp").forward(request, response);
+		
+		/*
+		 * Utilisateur userRecu = utilisateurdao.getUserById("MD100"); Village v = new
+		 * Village(); v.setIdVillage("TN100"); v.setNom("Taiba Ndiaye");
+		 * v.setUtilisateur(userRecu);
+		 * 
+		 * villagedao.add(v);
+		 */
+		if (request.getSession().getAttribute("user")==null){
+            response.sendRedirect("/WebSenForage/");
+        } else{
+        	request.setAttribute("villages", villagedao.listVillage());
+        	HttpSession session = request.getSession(true);
+        	request.setAttribute("user", session.getAttribute("idUser"));
+    		request.getRequestDispatcher("WEB-INF/village/add.jsp").forward(request, response);
+        }
 	}
 
 	/**
@@ -62,17 +71,20 @@ public class VillageServlet extends HttpServlet {
 
         HttpSession session = request.getSession(true);
         String idUser = (String) session.getAttribute("idUser");
-        Utilisateur userRecu = utilisateurdao.getUserById(idUser);
-
-        Village village = new Village();
-        village.setIdVillage(idVillage);
-        village.setNom(nomVillage);
-        village.setUtilisateur(userRecu);
-
-
-        int ok = villagedao.add(village);
+		
+		Utilisateur userRecu = utilisateurdao.getUserById(idUser);
+		  
+		Village village = new Village();
+		village.setIdVillage(idVillage);
+		village.setNom(nomVillage); 
+		village.setUtilisateur(userRecu);
+		
+		villagedao.add(village);
+		 
+	System.out.println(" ma session" +session.getAttribute("idUser"));
+        //int ok = villagedao.add(village);
         //resp.getWriter().println(ok);
-        request.setAttribute("resultat", ok);
+        request.setAttribute("user", idUser);
         doGet(request, response);
 	}
 

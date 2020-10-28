@@ -5,6 +5,7 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 import com.entities.Client;
 
@@ -33,7 +34,13 @@ public class ClientImpl implements IClientLocal {
 
 	@Override
 	public List<Client> listClient() {
-		return em.createQuery("SELECT c FROM Client c ORDER BY c.id desc ").getResultList();
+		try {
+			Query query = em.createQuery("SELECT c FROM Client c ORDER BY c.id desc ");
+			return query.getResultList();
+		}catch (Exception e){
+		    return null;
+		}
+		
 	}
 
 }

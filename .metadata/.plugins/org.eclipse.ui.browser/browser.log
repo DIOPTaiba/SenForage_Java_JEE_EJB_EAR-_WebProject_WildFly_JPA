@@ -30,3 +30,103 @@ oct. 26, 2020 13:13:08.774 Ouverture dans une session de navigateur existante.
 oct. 26, 2020 13:55:57.773 Ouverture dans une session de navigateur existante.
 oct. 26, 2020 13:57:45.85 Ouverture dans une session de navigateur existante.
 oct. 26, 2020 14:03:45.888 Ouverture dans une session de navigateur existante.
+
+oct. 27, 2020 14:51:36.343 NEW SESSION
+oct. 27, 2020 14:51:36.343 [14634:14634:1027/145136.342350:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+oct. 27, 2020 14:51:39.436 [14592:14797:1027/145139.436226:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb,IO error: /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+oct. 27, 2020 14:51:40.446 [14592:14797:1027/145140.446197:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb,IO error: /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+oct. 27, 2020 14:51:41.455 [14592:14797:1027/145141.455187:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb,IO error: /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+oct. 27, 2020 14:51:42.458 [14592:14797:1027/145142.458122:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb,IO error: /home/simplon/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+oct. 27, 2020 14:51:43.21 [14592:14617:1027/145143.021493:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 27, 2020 14:52:09.605 [14592:14617:1027/145209.605671:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+oct. 27, 2020 18:25:37.768 NEW SESSION
+oct. 27, 2020 18:25:37.768 [6540:6540:1027/182537.766862:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+oct. 27, 2020 18:25:37.785 [6540:6540:1027/182537.767741:ERROR:broker_posix.cc(43)] Invalid node channel message
+oct. 27, 2020 18:25:37.786 [6546:6546:1027/182537.782728:ERROR:broker_posix.cc(43)] Invalid node channel message
+oct. 27, 2020 18:25:37.900 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 19:32:34.510 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 19:40:15.958 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 19:59:16.79 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:06:43.840 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:14:58.303 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:21:12.387 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:21:59.948 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:33:05.722 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 20:59:15.237 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 21:06:23.721 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 21:09:25.172 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 21:11:37.960 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 21:24:33.979 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 21:28:28.618 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 22:30:34.362 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 22:44:38.921 Ouverture dans une session de navigateur existante.
+oct. 27, 2020 22:49:43.385 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:21:41.574 [23169:23169:1028/042141.574516:ERROR:broker_posix.cc(43)] Invalid node channel message
+oct. 28, 2020 04:21:41.895 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:21:42.552 [23161:23161:0100/000000.551919:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+oct. 28, 2020 04:21:42.554 [23161:23161:0100/000000.553744:ERROR:broker_posix.cc(43)] Invalid node channel message
+oct. 28, 2020 04:26:45.740 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:33:59.414 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:41:51.175 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:45:04.54 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:48:11.67 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 04:57:40.492 Ouverture dans une session de navigateur existante.
+
+oct. 28, 2020 08:51:07.468 NEW SESSION
+oct. 28, 2020 08:51:07.468 [2976:2976:1028/085107.465168:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+oct. 28, 2020 08:51:25.71 [2938:2962:1028/085125.071199:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 08:51:48.227 [2938:2962:1028/085148.226575:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 08:52:28.640 [2938:2962:1028/085228.639703:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 08:53:54.576 [2938:2962:1028/085354.576321:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 08:57:33.632 [2938:2962:1028/085733.632148:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 08:58:40.289 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 09:04:13.264 [2938:2962:1028/090413.263693:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 09:04:46.902 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 09:06:16.850 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 09:10:55.963 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 09:13:12.239 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 09:14:13.269 [2938:2962:1028/091413.268783:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 09:24:13.274 [2938:2962:1028/092413.274308:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 09:43:40.673 [2938:2962:1028/094340.672964:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 09:53:40.677 [2938:2962:1028/095340.677541:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 09:57:57.297 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 10:03:40.682 [2938:2962:1028/100340.682051:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 10:13:40.687 [2938:2962:1028/101340.687220:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 10:23:40.692 [2938:2962:1028/102340.692116:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 10:33:40.696 [2938:2962:1028/103340.695766:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 10:43:40.700 [2938:2962:1028/104340.700383:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 10:53:40.707 [2938:2962:1028/105340.707031:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 11:00:30.118 Fontconfig error: Cannot load default config file: No such file: (null)
+oct. 28, 2020 11:03:49.123 [2938:2962:1028/110349.122830:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 11:09:03.179 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 11:12:39.417 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 11:13:49.129 [2938:2962:1028/111349.128872:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 11:15:40.476 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 11:18:27.527 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 11:21:42.489 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 11:23:49.136 [2938:2962:1028/112349.136198:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 11:23:58.474 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 15:32:50.627 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 15:38:59.115 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 15:39:48.534 [2938:2962:1028/153948.534030:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 15:51:05.309 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 15:51:59.933 [2938:2962:1028/155159.932408:ERROR:socket_stream.cc(219)] Closing stream with result -2
+oct. 28, 2020 15:52:09.942 [2938:2962:1028/155209.941516:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 15:52:44.54 [2938:2962:1028/155244.053907:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 15:53:52.580 [2938:2962:1028/155352.579929:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 15:55:24.738 [2938:2962:1028/155524.737932:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 15:58:49.376 [2938:2962:1028/155849.375823:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 16:06:10.958 [2938:2962:1028/160610.958197:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 16:16:20.974 [2938:2962:1028/161620.974408:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 16:22:55.838 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 16:26:30.988 [2938:2962:1028/162630.988427:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 16:32:23.164 Fontconfig error: Cannot load default config file: No such file: (null)
+oct. 28, 2020 16:32:44.154 Fontconfig error: Cannot load default config file: No such file: (null)
+oct. 28, 2020 16:33:05.148 Fontconfig error: Cannot load default config file: No such file: (null)
+oct. 28, 2020 16:35:44.269 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 16:36:40.999 [2938:2962:1028/163640.999125:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+oct. 28, 2020 16:40:44.682 [2938:2962:1028/164044.681840:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 16:44:45.877 Ouverture dans une session de navigateur existante.
+oct. 28, 2020 16:45:05.488 [2938:2962:1028/164505.488263:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+oct. 28, 2020 16:57:13.660 [2938:2962:1028/165713.660300:ERROR:socket_stream.cc(219)] Closing stream with result -2

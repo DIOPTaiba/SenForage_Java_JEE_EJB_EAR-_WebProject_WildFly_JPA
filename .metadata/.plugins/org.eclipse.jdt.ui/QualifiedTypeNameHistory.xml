@@ -16,19 +16,22 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.dao.IVillageRemote"/>
     <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
     <fullyQualifiedTypeName name="com.dao.IClientLocal"/>
     <fullyQualifiedTypeName name="com.dao.IVillageLocal"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
     <fullyQualifiedTypeName name="com.dao.ClientImpl"/>
     <fullyQualifiedTypeName name="com.dao.VillageImpl"/>
     <fullyQualifiedTypeName name="javax.ejb.Init"/>
-    <fullyQualifiedTypeName name="com.entities.Village"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="com.entities.Client"/>
     <fullyQualifiedTypeName name="com.dao.IUtilisateurLocal"/>
     <fullyQualifiedTypeName name="com.dao.UtilisateurImpl"/>
-    <fullyQualifiedTypeName name="com.entities.Utilisateur"/>
-    <fullyQualifiedTypeName name="javax.ejb.EJB"/>
     <fullyQualifiedTypeName name="javax.ejb.Remote"/>
+    <fullyQualifiedTypeName name="javax.ejb.EJB"/>
+    <fullyQualifiedTypeName name="org.eclipse.persistence.sessions.Session"/>
+    <fullyQualifiedTypeName name="com.entities.Utilisateur"/>
+    <fullyQualifiedTypeName name="com.entities.Village"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
 </qualifiedTypeNameHistroy>

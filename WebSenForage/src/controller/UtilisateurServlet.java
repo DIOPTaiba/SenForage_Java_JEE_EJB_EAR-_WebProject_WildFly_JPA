@@ -15,7 +15,7 @@ import com.entities.Utilisateur;
 /**
  * Servlet implementation class UtilisateurServlet
  */
-@WebServlet("/Utilisateur")
+@WebServlet(urlPatterns="/Utilisateur", name="utilisateur")
 public class UtilisateurServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -46,8 +46,13 @@ public class UtilisateurServlet extends HttpServlet {
 		
 		utilisateurdao.add(u);
 		*/
-		request.setAttribute("utilisateurs", utilisateurdao.listUtilisateur());
-		request.getRequestDispatcher("index.jsp").forward(request, response);
+		if (request.getSession().getAttribute("user")==null){
+            response.sendRedirect("/WebSenForage/");
+        } else{
+        	request.setAttribute("utilisateurs", utilisateurdao.listUtilisateur());
+    		request.getRequestDispatcher("index.jsp").forward(request, response);
+        }
+		
 	}
 
 	/**

@@ -41,9 +41,14 @@ public class UtilisateurImpl implements IUtilisateurLocal {
 	@Override
 	public Utilisateur getUserById(String idUser) {
 		
-		Utilisateur utilisateur = (Utilisateur) em.createQuery("SELECT u FROM Utilisateur u WHERE u.idUser=:n")
-                .setParameter("n",idUser).getSingleResult();
-        return utilisateur;
+		try {
+
+			Query query = em.createQuery("SELECT u FROM Utilisateur u WHERE u.idUser=:n");
+			query.setParameter("n",idUser);
+	        return (Utilisateur) query.getSingleResult();
+		}catch (Exception e){
+		    return null;
+		}
 	}
 
 	@Override

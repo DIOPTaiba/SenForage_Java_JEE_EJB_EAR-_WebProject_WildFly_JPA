@@ -3,7 +3,7 @@ package controller;
 import java.io.IOException;
 
 import javax.ejb.EJB;
-import javax.servlet.ServletConfig;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.dao.ClientImpl;
 import com.dao.IClientLocal;
 import com.dao.IUtilisateurLocal;
 import com.dao.IVillageLocal;
@@ -22,7 +21,7 @@ import com.entities.Village;
 /**
  * Servlet implementation class ClientServlet
  */
-@WebServlet("/Client")
+@WebServlet(urlPatterns="/Client", name="client")
 public class ClientServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -41,19 +40,21 @@ public class ClientServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-    @Override
-    public void init(ServletConfig config) throws ServletException {
-        
-    }
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		request.setAttribute("clients", clientdao.listClient());
-		request.setAttribute("villages", villagedao.listVillage());
-		request.getRequestDispatcher("/WEB-INF/client/add.jsp").forward(request, response);
+		
+		if (request.getSession().getAttribute("user")==null){
+            response.sendRedirect("/WebSenForage/");
+        } else{
+        	request.setAttribute("clients", clientdao.listClient());
+        	request.setAttribute("villages", villagedao.listVillage());
+    		request.getRequestDispatcher("WEB-INF/client/add.jsp").forward(request, response);
+        }
+		
 	}
 
 	/**

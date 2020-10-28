@@ -25,7 +25,7 @@
         <h2>Login</h2>
         <form method="post" action="Login">
             <div class="user-box">
-                <input type="email" name="email" required="required">
+                <input type="email" name="email" required="required" autofocus="autofocus">
                 <label>Email</label>
             </div>
             <div class="user-box">
